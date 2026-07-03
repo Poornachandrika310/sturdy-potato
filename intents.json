@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "I need refund",
+        "How to return product"
+      ],
+      "responses": [
+        "You can return the product within 7 days."
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "Forgot password",
+        "Reset password"
+      ],
+      "responses": [
+        "Click on Forgot Password."
+      ]
+    }
+  ]
+}
